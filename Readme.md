@@ -26,7 +26,9 @@ This site is configured as a [Render static site](https://render.com/docs/static
 3. Connect your GitHub repo — Render will read `render.yaml` and create the static site.
 4. After deploy, your site will be live at `https://henry-martin-legal.onrender.com` (or a custom domain you configure).
 
-No build step is required — Render publishes the repo root directly.
+**Publish directory:** `./` (repo root — do not leave this blank)
+
+No build step is required — leave **Build Command** empty.
 
 ## Structure
 
